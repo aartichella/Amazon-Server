@@ -1,0 +1,16 @@
+{
+  "name": "AmazonServer",
+  "version": "0.0.1",
+  "description": "AmazonServer is a RabbitMQ Server Application ",
+  "private": true,
+  "scripts": {
+   	"start": "node server.js"
+  },
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "bcrypt-nodejs": "0.0.3",
+    "mongodb": "^2.1.16",
+    "connect-mongo": "^1.1.0",
+    "mysql": "^2.10.2"
+  }
+}
